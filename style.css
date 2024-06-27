@@ -1,0 +1,324 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+.featurette {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 40vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.text-body-secondary {
+  font-size: 1rem;
+}
+.navbar-brand {
+  font-family: "Moirai One", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.album {
+  background-color: #F8F4EC;
+}
+.navbar {
+  background-color: #F8F4EC;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.search-bar {
+  display: gird;
+  grid-template-columns: auto 3rem;
+}
+/* moving icon in sidebars color: colors="primary:#d63484" */
+.frame {
+  display: grid;
+  grid-template-columns: 3rem auto;
+}
+.bmi {
+  background-color: #F8F4EC;
+}
+.space-small {
+  flex-shrink: 0;
+  height: 0.5rem;
+  width: auto;
+  background-color: #F8F4EC;
+}
+.space-big {
+  flex-shrink: 0;
+  height: 5rem;
+  width: auto;
+  background-color: #F8F4EC;
+}
+.font-head {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-formal {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#boyfriend{
+  background-color: #F8F4EC;
+}
+.facebook-link-title, .gone-girl, .mozilla-tool{
+  color: #ED5AB3;
+  text-decoration: none;
+}
+.sidebars {
+  background-color: #F8F4EC;
+}
+#footer {
+  background-color: #F8F4EC;
+}
+#valentines {
+  background-color: #F8E8EE;
+  color: #001B79;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.featurette-cat {
+  margin-top: 20%;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  max-width: 200px;
+  height: auto;
+}
+.quiz-valentines {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 0.5px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+  border-color: #FF9BD2;
+color: #1640D6;
+}
+::-webkit-input-placeholder {
+  color: #C0DBEA;
+}
+.quiz-valentines:hover {
+box-shadow: 0 0 4px #ED5AB3;
+}
+.button-valentines {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 50px;
+  border: 2px solid #ED5AB3;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  color: #F8F4EC;
+  background-color: #FF9BD2;
+}
+.button-valentines:hover {
+background-color: #D63484;
+color: #F8F4EC; /* Change text color on hover */
+}
+.princess-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.moving-button-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #F9F5F6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.button-group {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.moving-butt {
+  position: absolute;
+  height: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #FFC7EA;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  color: #D8B4F8;
+  background-color: #FBF0B2;
+}
+.moving-butt:hover {
+background-color: #CAEDFF;
+color: #D8B4F8; 
+}
+.moving-butt:nth-child(1){
+  margin-left: -100px;
+  width: 50px;
+}
+.moving-butt:nth-child(2) {
+  width: 45px;
+  margin-right: -100px;
+}
+.goal-year {
+  background-color: #F8F4EC;
+}
+.goal-set {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 25px;
+  align-content: start;
+  margin-left: 20px;
+}
+.goal-item {
+  background-color: #402B3A;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.goal-item:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.goal-cat {
+  max-width: 80%; 
+  color: #F9F5F6;
+  
+}
+.goal-heading {
+  grid-row: span 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #402B3A;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.goal-heading:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.goal-text {
+  color: #F9F5F6;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.goal{
+  color: #F9F5F6;
+}
+#products {
+  background-color: #F8F4EC;
+}
+.goal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.goal-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: 1px solid #030637;
+}
+.goal-note {
+  background-color: #FF9BD2;
+color: #F8F4EC;
+  padding: 0.5rem;
+}
+.goal-note:hover {
+  background-color: #D63484;
+}
+.goal-table:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.goal-note-bf {
+  background-color: #CAEDFF;
+  color: #001B79;
+  padding: 0.5rem;
+}
+.goal-note-bf:hover {
+  background-color: #1640D6;
+  color: #F8F4EC;
+}
+.featurette-date-time {
+  background-image: linear-gradient(to right, #FF9BD2, #FDCEDF);
+  border: none;
+  color: #F8F4EC;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: background-color 0.4s, border-color 0.4s, color 0.4s;
+}
+.featurette-date-time:hover {
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);}
+}
